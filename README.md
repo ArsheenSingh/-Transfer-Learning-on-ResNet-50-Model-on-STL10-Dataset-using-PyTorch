@@ -28,8 +28,8 @@
     <li>🔢 <strong>NumPy:</strong> For efficient numerical computations.</li>
     <li>📈 <strong>Matplotlib:</strong> Used to visualize evaluation metrics and training progress.</li>
   </ul>
- <h1>STL-10 Dataset Overview 📸🔍</h1>
-    <img src='stl10_enhanced_overview.png' alt='STL-10 Enhanced Overview'/>
+ <h2>STL-10 Dataset Overview 📸🔍</h2>
+   
     <p>The STL-10 dataset is a widely-used image dataset designed for developing unsupervised feature learning,
     classification, and other machine learning tasks. It contains 10 classes of objects, each with numerous labeled
     images, making it ideal for training and testing models. The dataset includes:</p>
@@ -43,14 +43,28 @@
     <p>The STL-10 dataset is often used as a benchmark for evaluating the performance of various machine learning
     models, particularly in the field of computer vision. Its diverse set of images and the inclusion of unlabeled
     data make it a valuable resource for researchers and developers alike.</p>
-  
+  <h1>ResNeSt-50 Model Overview 🧠🔍📊</h1>
+    <img src='resnest50_enhanced_overview.png' alt='ResNeSt-50 Enhanced Overview'/>
+    <p>The ResNeSt-50 model is a cutting-edge convolutional neural network (CNN) designed for advanced image classification tasks. 📸🏆
+    It enhances the popular ResNet architecture with innovative features to boost performance and efficiency. 🚀</p>
+    <p>🌟 <strong>Key Features</strong>:</p>
+    <ul>
+        <li><strong>Split-Attention Blocks</strong>: These allow the model to focus on multiple feature scales simultaneously, capturing complex image patterns with ease. 🔍🔬</li>
+        <li><strong>Cardinality</strong>: ResNeSt introduces the concept of cardinality, which refers to the size of the set of transformations the network learns. Higher cardinality can lead to better performance. 🔢📈</li>
+        <li><strong>Efficient Design</strong>: Despite its advanced capabilities, ResNeSt-50 is designed to be computationally efficient, making it suitable for deployment in resource-constrained environments. ⚙️⚡</li>
+    </ul>
+    <p>🎯 <strong>Applications</strong>:</p>
+    <ul>
+        <li>Image classification</li>
+        <li>Object detection</li>
+        <li>Semantic segmentation</li>
+    </ul>
+    <p>ResNeSt-50 has demonstrated impressive performance on benchmark datasets like ImageNet, showcasing its ability to capture intricate visual details and improve classification accuracy. 🏆📊</p>
   <h2>📁 Project Structure</h2>
   <p>
-    <strong>notebooks:</strong> Contains the main notebook detailing the transfer learning workflow.<br>
-    <strong>models:</strong> Stores saved model weights after fine-tuning.<br>
-    <strong>/data:</strong> Holds the STL10 dataset used for training and testing.<br>
+    <strong>notebooks:</strong> Contains the main  <a href="transfer_learning_ResNet_STL10_pytorch.ipynb">notebook</a>. detailing the transfer learning workflow.<br>
+    <strong>data:</strong> Holds the STL10 dataset used for training and testing.<br>
     <strong>/results:</strong> Includes evaluation outputs and visualizations.<br>
-    <strong>/utils:</strong> Consists of helper scripts for data preparation and analysis.
   </p>
 </body>
 </html>
