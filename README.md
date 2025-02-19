@@ -30,7 +30,7 @@
   </ul>
  <h2>STL-10 Dataset Overview 📸🔍</h2>
    
-    <p>The STL-10 dataset is a widely-used image dataset designed for developing unsupervised feature learning,
+   <p>The STL-10 dataset is a widely-used image dataset designed for developing unsupervised feature learning,
     classification, and other machine learning tasks. It contains 10 classes of objects, each with numerous labeled
     images, making it ideal for training and testing models. The dataset includes:</p>
     <ul>
@@ -44,8 +44,8 @@
     models, particularly in the field of computer vision. Its diverse set of images and the inclusion of unlabeled
     data make it a valuable resource for researchers and developers alike.</p>
   <h1>ResNeSt-50 Model Overview 🧠🔍📊</h1>
-    <img src='resnest50_enhanced_overview.png' alt='ResNeSt-50 Enhanced Overview'/>
-    <p>The ResNeSt-50 model is a cutting-edge convolutional neural network (CNN) designed for advanced image classification tasks. 📸🏆
+  
+ <p>The ResNeSt-50 model is a cutting-edge convolutional neural network (CNN) designed for advanced image classification tasks. 📸🏆
     It enhances the popular ResNet architecture with innovative features to boost performance and efficiency. 🚀</p>
     <p>🌟 <strong>Key Features</strong>:</p>
     <ul>
@@ -62,9 +62,9 @@
     <p>ResNeSt-50 has demonstrated impressive performance on benchmark datasets like ImageNet, showcasing its ability to capture intricate visual details and improve classification accuracy. 🏆📊</p>
   <h2>📁 Project Structure</h2>
   <p>
-    <strong>notebooks:</strong> Contains the main  <a href="transfer_learning_ResNet_STL10_pytorch.ipynb">notebook</a>. detailing the transfer learning workflow.<br>
+    <strong>notebooks:</strong> Contains the main  <a href="transfer_learning_ResNet_STL10_pytorch.ipynb">notebook</a>,detailing the transfer learning workflow.<br>
     <strong>data:</strong> Holds the STL10 dataset used for training and testing.<br>
-    <strong>/results:</strong> Includes evaluation outputs and visualizations.<br>
+    <strong>results:</strong> Includes evaluation outputs and visualizations.<br>
   </p>
 </body>
 </html>
