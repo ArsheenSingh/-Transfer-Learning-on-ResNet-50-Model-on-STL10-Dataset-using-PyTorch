@@ -4,32 +4,6 @@ Transfer learning on ResNet-50 using PyTorch, fine-tuned on the STL10 dataset. A
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🚀 Transfer Learning on ResNet-50 Model on STL10 Dataset using PyTorch</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
-      margin: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #222;
-    }
-    pre {
-      background: #eaeaea;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
   <h1>🚀 Transfer Learning on ResNet-50 Model on STL10 Dataset using PyTorch</h1>
